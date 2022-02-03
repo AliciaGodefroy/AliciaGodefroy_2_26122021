@@ -1,0 +1,1002 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap');
+
+/* GÉNÉRAL */
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+}
+
+#bloc_page{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: auto;
+    padding: 0 10px;
+  }
+  
+#header img{
+    width: 100px;
+}
+  
+nav{
+    width: 30%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+}
+  
+nav li{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+  
+nav a{
+    color: black;
+    text-decoration: none;
+    margin-top: 30px;
+}
+  
+nav li:hover{
+    border-top: 3px solid #0065FC;
+}
+
+nav li a:hover{
+    color: #0065FC;
+}
+  
+nav .active-link{
+    border-top: 3px solid #0065FC;
+}
+
+nav .active-link a{
+    color:#0065FC;
+}
+
+/* MAIN */
+
+#main{
+    margin: auto;
+    padding: 0 30px;
+    margin-top: 20px;
+}
+
+/* SECTION SEARCH */
+
+.search header h1{
+    margin-bottom: 0px;
+}
+
+.search header p{
+    margin-top: 10px;
+}
+
+.search form{
+    display: flex;
+}
+
+.search-form-icon-border{
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.search input{
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    margin-right: 0px;
+}
+
+.search button{
+    background-color: #0065FC;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    margin-left: 0px;
+}
+
+::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    padding-left: 10px;
+}
+
+.search-filter-container{
+    display: flex;
+    align-items: baseline;
+    margin-top: 20px;
+}
+
+.search-filter-container a{
+    text-decoration: none;
+    color: black;
+}
+
+.search-filters-all{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search-filter{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.search-filter i{
+    color: #0065FC;
+    padding: 10px;
+}
+
+.search-filter-icon-border{
+    background-color: #DEEBFF;
+    border-radius: 300px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -2px;
+}
+
+.search-filter span{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.search-filter-container a:hover{
+    color: #0065FC;
+}
+
+.search-results{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.search-results p{
+    margin-left: 10px;
+}
+
+.search-results i{
+    color: #0065FC;
+    padding: 10px;
+}
+
+.search-results div{
+    border: 1.5px solid #F2F2F2;
+    border-radius: 300px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* SECTION PLACES */
+
+.places{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+/* --Main Places-- */
+
+.main-places{
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    width: 70%;
+    padding: 15px;
+    margin-right: 30px;
+}
+
+.main-places header{
+    margin-left: 20px;
+}
+
+.main-places-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-places-container article{
+    width: 30%;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
+}
+
+.main-places-container img{
+    object-fit: cover;
+    width: 100%;
+    height: 130px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-top: 0px;
+}
+
+.main-places-container figure{
+    margin: 5px;
+}
+
+.main-places-container figcaption h3{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 7px;
+}
+
+.main-places-container a{
+    color: inherit;
+    text-decoration: none;
+    width: 100%;
+}
+
+.main-places-container article p{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px; 
+    font-size: 14px;   
+}
+
+.fa-star{
+    color: #0065FC;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  
+.grey{
+    color:  #e0e0e0;
+  }
+  
+.stars{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
+.ViewMore{
+    font-weight: bold;
+    color: black;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+
+/* --Popular Places-- */
+
+.popular-places{
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    width: 30%;
+    padding: 15px 30px 15px 30px;
+}
+
+.popular-places-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.popular-places-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-places-container article{
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
+}
+
+.popular-places-container img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 30%;
+}
+
+.popular-places-container a{
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    height: 135px;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.popular-places-container p{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 0px; 
+    font-size: 14px;   
+}
+
+.popular-places-container h3{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.fa-chart-line{
+    margin: 0;
+ }
+
+.popular-places-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stars2{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+
+/* SECTION ACTIVITY */
+
+.activity-container{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.activity-container div{
+    display: flex;
+    width: 22%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.activity-container div figure{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.activity-container div img{
+    height: 400px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    object-fit: cover;
+}
+
+.activity-container .activity-img-250{
+    height: 200px;
+}
+
+.activity-container .activity-img-150{
+    height: 100px;
+}
+
+.activity-container .activity-img-200{
+    height: 150px;
+}
+
+.activity-container a{
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
+}
+
+.activity-container figcaption{
+    font-size: 16px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px; 
+}
+
+/* FOOTER */
+
+#footer{
+    width: 100%;
+    background-color: #F2F2F2;
+  }
+  
+.footer-container{
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    padding: 20px 30px;
+    font-size: 12px;
+    height: 145px;
+    text-align: justify;
+    margin-top: 60px;
+  }
+  
+#footer ul{
+    padding:0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+#footer ul a{
+    color: inherit;
+    text-decoration: none;
+  }
+  
+#footer ul li{
+    line-height: 200%;
+  }
+  
+.colonne1{
+    margin-right: auto;
+  }
+  
+.colonne2{
+    margin-right: auto;
+  }
+  
+.colonne3{
+    margin-right:auto;
+  }
+
+
+
+/* MEDIA QUERIES */ 
+
+@media screen and (min-width: 991px) {
+
+    .search button i{
+      display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+
+    /* Header */
+
+    #header{
+        padding: 0 10px;
+    }
+    #header img{
+        width: 200px;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    #header nav a{
+        font-size: 25px;
+        padding-top: 32px;
+    }
+
+    #main{
+        padding: 0 30px;
+    }
+
+    /* Recherche */
+
+    .search header h1{
+        font-size: 45px;
+    }
+
+    .search header p{
+        font-size: 25px;
+    }
+
+    .search-form-icon-border{
+        padding: 30px;
+        text-align: center;
+        font-size: 25px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+    
+    .search input{
+        width: 95%;
+    }
+    
+    .search button{
+        font-size: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .search button i{
+        display: none;
+    }
+    
+    ::placeholder{
+        font-size: 25px;
+    }
+
+    .search-filter-container{
+        flex-direction: column;
+    }
+
+    .search-filter-container h3{
+        font-size: 30px;
+    }
+
+    .search-filter{
+        border-radius: 30px;
+        margin-bottom: 20px;
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    .search-filter span{
+        font-size: 25px;
+    }
+
+    .search-filter i{
+        font-size: 25px;
+    }
+
+    .search-filter-icon-border{
+        height: 60px;
+        width: 60px;
+    }
+
+    .search-results div{
+        border-radius: 300px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .search-results i{
+        font-size: 25px;
+    }
+
+    .search-results p{
+        font-size: 25px;
+    }
+
+    /* Hébergements Container*/
+
+    #go_places{
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 97%
+    }
+
+    /* Les plus populaires */
+
+    .popular-places{
+        width: 100%;
+        margin-bottom: 40px;
+        padding: 15px;
+    }
+
+    .popular-places-header{
+        padding: 0 15px;
+    }
+
+    .popular-places-header h3{
+        font-size: 30px;
+    }
+
+    .popular-places-header i{
+        font-size: 30px;
+    }
+
+    .popular-places-container article{
+        width: 95%;
+        margin-bottom: 15px;
+    }
+
+    .popular-places-container a{
+        height: 160px;
+    }
+
+    .popular-places-container h3{
+        font-size: 25px;
+    }
+
+    .popular-places-container p{
+        font-size: 22px;
+    }
+
+    .popular-places-text{
+        width: 60%;
+        padding-left: 10px;
+    }
+
+    .stars2{
+        font-size: 20px;
+    }
+
+    /* Hébergements à Marseille */
+
+    .main-places{
+        width: 100%;
+    }
+
+    .main-places-container{
+        margin-bottom: 20px;
+    }
+
+    .main-places-container article{
+        width: 48%
+    }
+
+    .main-places header h3{
+        font-size: 30px;
+    }
+
+    .main-places-container figcaption h3{
+        font-size: 25px;
+    }
+
+    .main-places-container article p{
+        font-size: 22px;
+    }
+
+    .stars{
+        font-size: 20px;
+    }
+
+    .ViewMore{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    /* Activités à Marseille */
+
+    .activity h3{
+        font-size: 30px;
+    }
+
+    .activity-container{
+        flex-wrap: wrap;
+    }
+
+    .activity-container figcaption{
+        font-size: 25px;
+    }
+
+    .activity-container div{
+        width: 48%;
+        padding-bottom: 40px;
+    }
+
+    .activity-container div img{
+        height: 500px;
+    }
+
+    .activity-container .activity-img-150, .activity-img-250{
+        height: 200px;
+    }
+
+    .activity-container .activity-img-200{
+        height: 200px;
+    }
+
+    /* Footer */
+
+    #footer{
+        width: 100%;
+    }
+
+    .footer-container{
+        height: 170px;
+        padding: 20px 10px;
+        margin-top: 20px;
+    }
+
+    .footer-container div{
+        width: 40%;
+        margin-left: 40px;
+    }
+
+    .footer-container h3{
+        font-size: 20px;
+    }
+
+    .footer-container a{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    /* Header */
+
+    #header{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    nav{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    nav a{
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    nav ul{
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li{
+        display: flex;
+        width: 50%;
+        margin: 0;
+        justify-content: center;
+        border-bottom: 3px solid #F2F2F2;
+        font-size: 20px;
+    }
+
+    nav li:hover{
+        border-top: none;
+        border-bottom: 3px solid #0065FC
+    }
+
+
+    nav .active-link{
+        width: 50%;
+        border-top: none; 
+        border-bottom: 3px solid #0065FC; 
+      }
+
+    #main{
+        padding: 0;
+    }
+
+    /* Recherche */
+
+    .search{
+        padding: 0 20px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    .search header p{
+        margin-bottom: 30px;
+    }
+
+    .search button span{
+        display: none;
+    }
+
+    .search input{
+        width: 95%;
+    }
+
+    .search button{
+        border-radius: 15px;
+    }
+
+    .search-filter-container{
+        flex-direction: column;
+    }
+
+    .search-filter{
+        margin-left: 0;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .search-filters-all{
+        align-items: flex-start;
+    }
+
+    #go_places{
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 97%
+    }
+
+    /* Les plus populaires */
+
+    .popular-places{
+        width: 95%;
+        margin-bottom: 10px;
+        padding: 15px;
+        border-radius: 0;
+    }
+
+    .popular-places-header{
+        padding: 0 10px;
+    }
+
+    .popular-places-header h3{
+        font-size: 20px;
+    }
+
+    .popular-places-header i{
+        font-size: 20px;
+    }
+
+    .popular-places-container article{
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+    .popular-places-container img{
+        width: 40%;
+    }
+
+    .popular-places-container a{
+        height: 160px;
+    }
+
+    .popular-places-container h3{
+        font-size: 18px;
+    }
+
+    .popular-places-container p{
+        font-size: 15px;
+        margin-bottom: 70px;
+    }
+
+    .popular-places-text{
+        width: 60%;
+    }
+
+    .stars2{
+        font-size: 12px;
+    }
+
+    /* Hébergements à Marseille */
+
+    .main-places{
+        width: 95%;
+        padding: 15px;
+        background-color: white;
+    }
+    
+    .main-places-container{
+        margin-bottom: 20px;
+    }
+    
+    .main-places-container article{
+        width: 95%
+    }
+
+    .main-places-container img{
+        height: 110px;
+    }
+    
+    .main-places header h3{
+        font-size: 20px;
+    }
+    
+    .main-places-container figcaption h3{
+        font-size: 18px;
+    }
+    
+    .main-places-container article p{
+        font-size: 15px;
+    }
+    
+    .stars{
+        font-size: 12px;
+    }
+    
+    .ViewMore{
+        font-size: 18px;
+        margin-bottom: 40px;
+        margin-left: 10px;
+    }
+    
+    /* Activités à Marseille */
+    
+    .activity{
+        padding: 0 20px;
+    }
+    .activity h3{
+        font-size: 20px;
+    }
+    
+    .activity-container{
+        flex-direction: column;
+    }
+    
+    .activity-container figcaption{
+        font-size: 18px;
+    }
+    
+    .activity-container div{
+        width: 100%;
+    }
+
+    .activity-container a{
+        margin-bottom: 20px;
+    }
+    
+    .activity-container div a figure img{
+        height: 125px;
+    }
+    
+    .activity-container .activity-img-150{
+        height: 125px;
+    }
+
+    .activity-container .activity-img-200{
+        height: 125px;
+    }
+
+    .activity-container .activity-img-250{
+        height: 125px;
+    }
+
+    /* Footer */
+    
+    #footer{
+        width: 100%;
+    }
+    
+    .footer-container{
+        height: 420px;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .footer-container h3{
+        font-size: 20px;
+    }
+    
+    .footer-container a{
+        font-size: 15px;
+    }
+}
